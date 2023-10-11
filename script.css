@@ -1,0 +1,61 @@
+.parent{
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.firstname{
+    font-size: 10px;
+    @media screen and (max-width: 700px){
+        .firstname{
+         font-size: 10px;
+         }
+        }
+}
+.lastname{
+    font-size: 10px;
+    padding-left: 180px;
+    @media screen and (max-width: 700px){
+        .lastname{
+         font-size: 10px;
+         }
+        }
+}
+.email{
+    padding-left: 195px;
+    @media screen and (max-width: 700px){
+        .lastname{
+         font-size: 10px;
+         }
+        }
+}
+.fa{
+   color: orange;  
+
+}
+.qst{
+    font-size: 10px;
+    @media screen and (max-width: 700px){
+        .lastname{
+         font-size: 10px;
+         }
+        }
+}
+.surveyForm{
+    background-color: rgb(242, 239, 245);
+    padding: 0px 950px 0px 0px;
+    margin: 0px 0px 10px 0px;
+    text-align: left;
+    @media screen and (max-width: 700px){
+        .surveyForm{
+         font-size: 10px;
+         }
+        }
+}
+
+input[type=radio],
+    input.radio {
+      float: left;
+      clear: none;
+      margin: 8px 0 0 120px;
+    }
+   
